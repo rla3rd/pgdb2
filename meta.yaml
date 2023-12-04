@@ -1,0 +1,16 @@
+package:
+  name: pgdb2
+  version: 0.2.1
+requirements:
+  build:
+  - python
+  - setuptools
+  - psycopg2
+  - sqlalchemy >=2.0.21
+  run:
+  - python
+source:
+  path: /home/ralbright/pgdb2/dist
+about:
+  license: MIT License
+  summary: pgdb2 database connector
